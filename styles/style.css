@@ -86,7 +86,7 @@
   opacity: 0.6;
 }
 
-.theme-menu__button:focus-visible::after{
+.theme-menu__button:focus-visible::after {
   transform: scaleX(1);
 }
 
@@ -205,8 +205,7 @@
 .card__button-section {
   display: flex;
   justify-content: end;
-  align-items: center;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 .card__icon-button {
