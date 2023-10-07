@@ -1,4 +1,4 @@
 # zakrivayuschiy-teg
 
 Проект "Закрывающий тег"  
-https://github.com/AnSannikova/zakrivayuschiy-teg-f
+https://ansannikova.github.io/zakrivayuschiy-teg-f/
