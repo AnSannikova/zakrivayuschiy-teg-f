@@ -10,5 +10,5 @@
 		linear-gradient(#E7E7E7 0.01%, #1A1A1A 100%);
 	--btn-text-color: var(--background-color, #fff);
 	--heart-countur-color: var(--accent-color, #000);
-	--heart-body-color: #FF0000;
+	--heart-body-color: #F00;
 }

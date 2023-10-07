@@ -176,11 +176,13 @@
 }
 
 @supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+
   .logo {
     -webkit-text-stroke: 1px var(--background-color, #fff);
     text-stroke: 1px var(--background-color, #fff);
     text-shadow: none;
   }
+
 }
 
 .card__content {
@@ -250,12 +252,12 @@
 }
 
 .card__icon-button:active .core {
-  fill: var(--heart-body-color, #FF0000);
+  fill: var(--heart-body-color, #F00);
   transition-delay: 0.03s;
 }
 
 .card__icon-button:active .main-body {
-  fill: var(--heart-body-color, #FF0000);
+  fill: var(--heart-body-color, #F00);
 }
 
 .card__icon-button:focus {
@@ -268,16 +270,16 @@
 }
 
 .like-icon.is-liked .contour {
-  fill: var(--heart-body-color, #FF0000);
+  fill: var(--heart-body-color, #F00);
   transition: linear 0.1s;
 }
 
 .like-icon.is-liked .core {
-  fill: var(--heart-body-color, #FF0000);
+  fill: var(--heart-body-color, #F00);
 }
 
 .like-icon.is-liked .main-body {
-  fill: var(--heart-body-color, #FF0000);
+  fill: var(--heart-body-color, #F00);
 }
 
 .like-icon.is-liked .heart {
@@ -309,7 +311,7 @@
 
 .button:focus {
   outline: none;
-  box-shadow: 2px 2px 0px 0px var(--accent-color, #000);
+  box-shadow: 2px 2px 0 0 var(--accent-color, #000);
 }
 
 .button::after {
