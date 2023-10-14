@@ -1,14 +1,21 @@
 :root {
-	--main-font: 'Inter', sans-serif;
-	--accent-font: 'PressStart2P', fantasy;
-	--font-weight-title: 700;
-	--font-weight-text: 400;
-	--background-color: #fff;
-	--accent-color: #000;
-	--backgroind-gradient: repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
-		repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
-		linear-gradient(#E7E7E7 0.01%, #1A1A1A 100%);
-	--btn-text-color: var(--background-color, #fff);
-	--heart-countur-color: var(--accent-color, #000);
-	--heart-body-color: #F00;
+  --main-font: 'Inter', sans-serif;
+  --accent-font: 'PressStart2P', fantasy;
+  --font-weight-title: 700;
+  --font-weight-text: 400;
+  --background-color: #fff;
+  --accent-color: #000;
+  --backgroind-gradient: repeating-linear-gradient(
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
+  --btn-text-color: var(--background-color, #fff);
+  --heart-countur-color: var(--accent-color, #000);
+  --heart-body-color: #f00;
 }

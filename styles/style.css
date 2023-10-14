@@ -5,9 +5,19 @@
   font-variation-settings: 'wght' var(--font-weight-text, 400);
   color: var(--accent-color, #000);
   background-color: var(--background-color, #fff);
-  background-image: var(--backgroind-gradient, repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
-    repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),  
-    linear-gradient(#E7E7E7 0.01%, #1A1A1A 100%));
+  background-image: var(
+    --backgroind-gradient,
+    repeating-linear-gradient(
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%)
+  );
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -179,10 +189,10 @@
 
   .logo {
     -webkit-text-stroke: 1px var(--background-color, #fff);
+    /* stylelint-disable-next-line property-no-unknown */
     text-stroke: 1px var(--background-color, #fff);
     text-shadow: none;
   }
-
 }
 
 .card__content {
@@ -252,12 +262,12 @@
 }
 
 .card__icon-button:active .core {
-  fill: var(--heart-body-color, #F00);
+  fill: var(--heart-body-color, #f00);
   transition-delay: 0.03s;
 }
 
 .card__icon-button:active .main-body {
-  fill: var(--heart-body-color, #F00);
+  fill: var(--heart-body-color, #f00);
 }
 
 .card__icon-button:focus {
@@ -270,16 +280,16 @@
 }
 
 .like-icon.is-liked .contour {
-  fill: var(--heart-body-color, #F00);
+  fill: var(--heart-body-color, #f00);
   transition: linear 0.1s;
 }
 
 .like-icon.is-liked .core {
-  fill: var(--heart-body-color, #F00);
+  fill: var(--heart-body-color, #f00);
 }
 
 .like-icon.is-liked .main-body {
-  fill: var(--heart-body-color, #F00);
+  fill: var(--heart-body-color, #f00);
 }
 
 .like-icon.is-liked .heart {
@@ -399,7 +409,6 @@
   text-transform: uppercase;
 }
 
-
 @media (width <= 375px) {
 
   .header {
@@ -407,9 +416,9 @@
   }
 
   .logo-title {
-    font-size: clamp(2.5rem, -0.7727rem + 16.3636vw, 3.0625rem);;
+    font-size: clamp(2.5rem, -0.7727rem + 16.3636vw, 3.0625rem);
   }
-  
+
   .cards__list {
     margin-block-end: 52px;
   }
@@ -426,5 +435,4 @@
     max-inline-size: 341px;
     padding: 30px 40px;
   }
- 
 }
